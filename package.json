@@ -4,7 +4,7 @@
   "private": true,
   "description": "gemic.io landing page",
   "scripts": {
-    "start": "serve -s public -l tcp://0.0.0.0:${PORT:-3000}"
+    "start": "serve public -l tcp://0.0.0.0:${PORT:-3000}"
   },
   "dependencies": {
     "serve": "^14.2.4"
